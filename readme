@@ -1,0 +1,14 @@
+1. HTML Structure:
+The page includes a <textarea> where users can input text.
+A <button> triggers the speech function when clicked.
+The elements are wrapped inside a <div> with a container class for styling.
+2. CSS (External - style.css):
+The external CSS file (style.css) is linked in the <head>, but its contents are not provided.
+Likely used for styling the container, button, and textarea.
+3. JavaScript (texttospeech() Function):
+Retrieves the text from the <textarea> using document.getElementById("textToSpeak").
+Creates a SpeechSynthesisUtterance object (speechObj) with the text.
+Calls window.speechSynthesis.speak(speechObj), which uses the browser's built-in Web Speech API to convert text to speech.
+4. SpeechSynthesis API:
+SpeechSynthesisUtterance: Represents the text-to-speech request.
+window.speechSynthesis.speak(obj): Reads the text aloud using the system's default voice.
