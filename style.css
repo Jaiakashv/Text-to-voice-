@@ -16,11 +16,11 @@
     text-transform: uppercase;
 }
 textarea{
-    padding-top: 10px;
+     padding: 10px;
     margin-top: 50px;
     width: 400px;
     margin-left: 50px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 button {
     font-family: "poppins";
